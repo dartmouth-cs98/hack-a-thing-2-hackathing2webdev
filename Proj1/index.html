@@ -1,51 +1,60 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Chore Door!</title>
-    <link href="./style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
-  </head>
 
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>Aguillar Family Wine Festival</title>
+  <link rel="stylesheet" type="text/css" href="reset.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
 
-    <div class="header">
-      <img src="https://content.codecademy.com/projects/chore-door/images/logo.svg">
-    </div>
+<body>
+  <header>
+    <h1>Annual Aguillar Family Wine Festival</h1>
+  </header>
+  
+  <div class="container">
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2"><h1>Wine Festival Schedule</h1></th>
+        </tr>
+        <tr>
+          <th><h2>Time</h2></th>
+          <th><h2>Event</h2></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="left"><h3>12:00 PM</h3></td>
+          <td><h3>Welcome Reception</h3></td>
+        </tr>
+        <tr>
+          <td class="left"><h3>01:00 PM</h3></td>
+          <td><h3>Storytelling & Tasting</h3></td>
+        </tr>
+        <tr>
+          <td class="left"><h3>02:00 PM</h3></td>
+          <td><h3>Wine Luncheon</h3></td>
+        </tr>
+        <tr>
+          <td class="left"><h3>03:00 PM</h3></td>
+          <td><h3>Aguillar Family Wines</h3></td>
+        </tr>
+        <tr>
+          <td class="left"><h3>04:00 PM</h3></td>
+          <td><h3>Wine & Cheese Tasting</h3></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <footer>
+    <h3>Contact</h3>
+    <h3>Location</h3>
+    <h3>Privacy Policy</h3>
+  </footer>
+</body>
 
-    <div class="title-row">
-        <img src="https://content.codecademy.com/projects/chore-door/images/star.svg">
-        <p class="instructions-title">Instructions</p>
-        <img src="https://content.codecademy.com/projects/chore-door/images/star.svg">
-
-        <table class="instructions-row">
-          <tr>
-            <td class="instructions-number">1</td>
-            <td class="instructions-text">Hiding behind one of these doors is the ChoreBot.</td>
-          </tr>
-          <tr>
-            <td class="instructions-number">2</td>
-            <td class="instructions-text">Your mission is to open all of the doors without running into the ChoreBot.</td>
-          </tr>
-          <tr>
-            <td class="instructions-number">3</td>
-            <td class="instructions-text">If you manage to avoid the ChoreBot until you open the very last door, you win!</td>
-          </tr>   
-          <tr>
-            <td class="instructions-number">4</td>
-            <td class="instructions-text">See if you can score a winning streak!</td>
-          </tr>
-        </table>
-    </div>
-
-    <div class="door-row">
-      
-      <img id="door1" class="door-frame" src="https://content.codecademy.com/projects/chore-door/images/closed_door.svg">
-      <img id="door2" class="door-frame" src="https://content.codecademy.com/projects/chore-door/images/closed_door.svg">
-      <img id="door3" class="door-frame" src="https://content.codecademy.com/projects/chore-door/images/closed_door.svg">
-    </div>
-    <div id="start" class="start-row">
-        Good luck!
-      </div>
-    <script type="text/javascript" src="script.js"></script>
-  </body>
 </html>
